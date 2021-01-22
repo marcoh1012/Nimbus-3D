@@ -1,3 +1,39 @@
+# Nimbus 3D
+
+
+
+Thingiverse Clone for 3D Printing STL files.
+
+Deployment: https://nimbus-3d.herokuapp.com/
+
+Log-In: Due to the API restrictions you must login with a Thingiverse account and only up to 10 people can access the site at this time.
+
+
+
+### Thingiverse API:
+
+https://api.thingiverse.com
+
+### Goals/Features:
+
+The goal of the app is to make a clone of Thingiverse and fix some of the issues i have experienced with the site. One of the biggest issues is that Thingiverse does not keep track of the page you are in so when you click a model and want to go back to search results it will take you back to the first page instead of the page you were in. This can be a nuisance when you are on a page such as 30 + and now you have to start from the beginning.  
+
+The second goal was to change the recommendations on the home page. On the Thingiverse site it is set to display the most popular models in the past 30 days. This leads to the front page being the same models for a long time. I have changed it to show the most popular in the last 3 days so that it changes more often while still leaving the option to view models popular in the last 7,30 or 365 days.
+
+Lastly, I added a button to the model page that will download all the model files only. On the Thingiverse site it will download all extra files including images. I find this unnecessary for most models and downloading each file individually might not be optimal if there are a lot of files for one model. The download all button on this app takes care of that and still allows the user to download the files individually if needed.
+
+
+
+​		App Created Using: React Redux, CSS, Material-Ui, HTML, Javascript
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

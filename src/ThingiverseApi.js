@@ -67,7 +67,7 @@ class ThingiverseApi {
       return res
     }
 
-    static async getLikes(username){
+    static async getLikes(){
       let res = await this.request(`users/me/likes`)
       return res
     }
