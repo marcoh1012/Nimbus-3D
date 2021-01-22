@@ -22,9 +22,9 @@ const onFailure = response => console.error(response);
 
     return(<OAuth2Login
         className="login-button"
-        authorizationUrl={authURL}
+        authorizationUrl={authURL || process.env.authURL}
         responseType="token"
-        clientId={clientID}
+        clientId={clientID || process.env.clientID}
         redirectUri="https://nimbus-3d.herokuapp.com/"
         onSuccess={onSuccess}
         onFailure={onFailure}

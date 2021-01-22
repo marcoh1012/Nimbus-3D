@@ -34,7 +34,7 @@ function  MobileNavBar({setState, drawerOpen}) {
                 "aria-haspopup": "true",
               }}
             >
-              <MenuIcon className='mobile-menu-icon'/>
+              <MenuIcon className='mobile-menu-icon' fontSize='large'/>
             </IconButton>
 
             <Drawer
