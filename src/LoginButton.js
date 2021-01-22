@@ -25,7 +25,7 @@ const onFailure = response => console.error(response);
         authorizationUrl={authURL}
         responseType="token"
         clientId={clientID}
-        redirectUri="http://localhost:3000/home"
+        redirectUri="https://nimbus-3d.herokuapp.com/"
         onSuccess={onSuccess}
         onFailure={onFailure}
     />)
